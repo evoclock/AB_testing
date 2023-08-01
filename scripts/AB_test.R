@@ -1,5 +1,9 @@
 # AB testing
 
+# I work on a linux machine primarily and the tidyverse library is a pig to load
+# so this is just a function I have made to load the individual packages to my
+# environment. You will be able to just use library(tidyverse) and off you go
+
 source("../random_bits/tidy_loader.R")
 load_required_packages()
 
